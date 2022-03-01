@@ -30,6 +30,8 @@ public class TareaLibro {
         System.out.println("Color de portada: " + scottpilgrim.getColor());
         scottpilgrim.setTamaño("Mediano pasta gruesa");
         System.out.println("Tamaño y pasta: " + scottpilgrim.getTamaño());
+        scottpilgrim.leer("capitulo 31: Mundo en Ruinas");
+        scottpilgrim.guardar("la mochila");
 
         // TODO code application logic here
     }

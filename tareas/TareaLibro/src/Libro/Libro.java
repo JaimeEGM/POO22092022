@@ -76,5 +76,13 @@ public class Libro {
     public void setColor(String color) {
         this.color = color;
     }
+    //Métodos del objeto Libro
+    public void leer (String capitulo) {
+        System.out.println(this.titulo + " está siendo leído en el " + capitulo);  
+    }
+    
+    public void guardar (String lugar) {
+        System.out.println(this.titulo + " ha sido guardado en " + lugar);
+    }
     
 }
